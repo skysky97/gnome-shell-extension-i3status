@@ -17,3 +17,13 @@ cpu_usage {
         format = "cpu:%usage"
 }
 ```
+
+Install:
+
+- Using gnome-extension tool to install the package: `gnome-extension install i3status@skysky97.github.com-gnone-shell.gzip`.
+- The extension will be installed to '$HOME/.local/share/gnome-shell/extension/'.
+- Restarting gnone-shell: press 'Alt + F2` open command diag and run 'restart'.
+- Enable i3status extension via tweak tool or extension tool.
+- Path of i3status is hard coded to '/usr/bin/i3status', you can install i3status via package manager.
+- If not work, see sys log for details. In ubuntu, run `journalctl -b`.
+
