@@ -1,0 +1,10 @@
+.status-label {
+    color: #bbb;
+    font-size: 0.625em;
+    padding: 0 2px 0 5px;
+}
+
+.status-value {
+    min-width: 25px;
+    text-align: right;
+}

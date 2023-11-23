@@ -1,0 +1,8 @@
+{
+  "name": "i3status",
+  "description": "Integrate i3status into top bar, like i3bar in i3wm.",
+  "uuid": "i3status@skysky97.github.com",
+  "shell-version": [
+    "3.36"
+  ]
+}
